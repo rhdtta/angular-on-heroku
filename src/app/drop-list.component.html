@@ -1,0 +1,55 @@
+<!-- <ul>
+    <li *ngFor="let location of droplist">
+        {{location.name}}
+        <ul>
+            <li *ngFor = "let branch of location.branches">
+                {{branch.name}}
+            </li>
+        </ul>
+    </li>
+</ul>
+ -->
+
+<!-- <div class="dropdown">
+    <button class="dropbtn">Select Location</button>
+
+    <ul class="dropdown-content">
+        <li *ngFor="let location of droplist">
+            {{location.name}}
+            <ul class="dropdown-content-content">
+                <li *ngFor = "let branch of location.branches">
+                    {{branch.name}}
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div> -->
+
+
+<!-- <div class="main">
+    <button>Select Location</button>
+
+    <div>
+        <a *ngFor="let location of droplist">
+            {{location.name}}
+            <div>
+                <a *ngFor = "let branch of location.branches">
+                    {{branch.name}}
+                </a>
+            </div>
+
+        </a>
+    </div>
+</div>  -->
+
+<ul class="main-navigation">
+    <li ><a>Select Location</a>
+      <ul>
+        <li *ngFor="let location of droplist"><a  routerLink='{{location.name}}'>{{location.name}}</a>
+          <ul>
+            <li *ngFor = "let branch of location.branches"><a routerLink="{{location.name + '/' + branch.name}}">{{branch.name}}</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+</ul>

@@ -1,0 +1,10 @@
+.head{
+    float: left;
+}
+.drop-list{
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+  }
