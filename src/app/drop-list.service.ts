@@ -2134,11 +2134,11 @@ export class dropListService{
         },
         "error": {}
     }
-    
+
     get() {
         return this.dropList.data.locations;
     }
-
+    
     
       
 }

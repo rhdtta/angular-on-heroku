@@ -7,6 +7,8 @@ import { HomePageComponent } from './home-page.component';
 import { DropListComponent } from './drop-list.component';
 import { LocationComponent } from './location.component';
 import { EquipmentComponent } from './equipment.component';
+import { CategoryWindowComponent } from './category-window/category-window.component';
+import { SubComponentComponent } from './sub-component/sub-component.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { EquipmentComponent } from './equipment.component';
     HomePageComponent,
     DropListComponent,
     LocationComponent,
-    EquipmentComponent
+    EquipmentComponent,
+    CategoryWindowComponent,
+    SubComponentComponent
   ],
   imports: [
     BrowserModule,

@@ -11,6 +11,8 @@ export class DropListComponent implements OnInit {
 
   ngOnInit(){
     this.droplist = this.dropListService.get();
+
+    
     // for(let i = 0; i<this.droplist.length; i++){
     //   this.locations.push(this.droplist[i].name);
     // }

@@ -1,0 +1,11 @@
+<div class="main-container">
+    
+    <div class="cards">
+      <div class="card card-1" *ngFor="let subcategory of subcategories">
+        <!-- <div class="card__icon"><i class="fas fa-bolt"></i></div> -->
+        <!-- <p class="card__exit"><i class="fas fa-times"></i></p> -->
+        <h2 class="card__title">{{subcategory.name}}</h2>
+        <img src="assets/category/subcategory/{{subcategory.image}}"  style="width:50%"  >
+      </div>
+    </div>
+  </div>
