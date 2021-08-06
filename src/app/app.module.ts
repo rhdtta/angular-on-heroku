@@ -9,6 +9,7 @@ import { LocationComponent } from './location.component';
 import { EquipmentComponent } from './equipment.component';
 import { CategoryWindowComponent } from './category-window/category-window.component';
 import { SubComponentComponent } from './sub-component/sub-component.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SubComponentComponent } from './sub-component/sub-component.component';
     LocationComponent,
     EquipmentComponent,
     CategoryWindowComponent,
-    SubComponentComponent
+    SubComponentComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,

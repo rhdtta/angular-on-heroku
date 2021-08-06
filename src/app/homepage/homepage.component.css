@@ -1,0 +1,32 @@
+.homepage{
+    /* width: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: pink; */
+
+    text-align: center;
+    
+  justify-content: center;
+  /* padding: 50px 0px 50px 0px; */
+    
+
+    
+}
+
+.hdiv{
+    
+        
+        height:100%;
+    align-self: center;
+    background-color: yellowgreen;
+}
+.box {
+    
+    position:absolute;
+    top: 300px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    z-index: -1;
+    
+  }

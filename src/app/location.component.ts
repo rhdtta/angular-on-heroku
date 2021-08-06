@@ -28,7 +28,7 @@ export class LocationComponent implements OnInit {
         this.branch = paramMap.get('branch');
         
         if(this.branch == null){
-
+          /*
           let location; //holds the location array
           for(var i=0; i<this.droplist.length; i++){
             if(this.droplist[i].name === this.location){
@@ -57,7 +57,7 @@ export class LocationComponent implements OnInit {
             //   }
             // }
           }
-
+          */
           
 
           
