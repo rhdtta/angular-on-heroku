@@ -26,7 +26,7 @@ export class SubComponentComponent implements OnInit {
         let k = droplist[i].branches[j].categories.findIndex((z: any) => z.name === category);
 
         droplist[i].branches[j].categories[k].subcategories.forEach((x:any) => this.subcategories.push(x));
-        console.log(this.subcategories)
+        console.log('subcat', this.subcategories)
       })
   }
 

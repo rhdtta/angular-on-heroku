@@ -1,0 +1,8 @@
+<div class="main-container" >
+    <div  class="cards">
+      <div *ngFor="let category of categories" routerLink="{{category.name}}" class="card card-1" >
+        <h2 class="card__title">{{category.name}}</h2>
+        <img src="assets/category/{{category.image}}"  style="width:50%"  >
+      </div>
+    </div>
+  </div>

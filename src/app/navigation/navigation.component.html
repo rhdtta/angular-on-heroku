@@ -1,0 +1,11 @@
+<ul class="main-navigation">
+    <li><a>Select Location</a>
+      <ul>
+        <li *ngFor="let location of droplist"><a  routerLink='{{location.name}}'>{{location.name}}</a>
+          <ul>
+            <li *ngFor = "let branch of location.branches"><a routerLink="{{location.name + '/' + branch.name}}">{{branch.name}}</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+</ul>

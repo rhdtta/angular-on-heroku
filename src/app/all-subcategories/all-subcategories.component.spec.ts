@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DropListComponent } from './drop-list.component';
+import { AllSubcategoriesComponent } from './all-subcategories.component';
 
-describe('DropListComponent', () => {
-  let component: DropListComponent;
-  let fixture: ComponentFixture<DropListComponent>;
+describe('AllSubcategoriesComponent', () => {
+  let component: AllSubcategoriesComponent;
+  let fixture: ComponentFixture<AllSubcategoriesComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DropListComponent ]
+      declarations: [ AllSubcategoriesComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DropListComponent);
+    fixture = TestBed.createComponent(AllSubcategoriesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

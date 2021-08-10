@@ -2137,8 +2137,5 @@ export class dropListService{
 
     get() {
         return this.dropList.data.locations;
-    }
-    
-    
-      
+    }   
 }
